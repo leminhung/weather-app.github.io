@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-image: url(https://source.unsplash.com/1600x900/?HaNoi);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  padding: 20px 50px 20px 20px;
+  background: #000000d0;
+  color: white;
+  border-radius: 20px;
+  width: 444px;
+}
+
+.search {
+  display: flex;
+}
+
+.location,
+.tem,
+.cloud,
+.humidity,
+.wind {
+  display: flex;
+  padding: 10px 5px;
+}
+
+p {
+  padding-left: 16px;
+  text-transform: capitalize;
+}
+
+input,
+button {
+  background: rgb(95 85 85 / 30%);
+  color: aliceblue;
+  border: none;
+  outline: none;
+}
+
+input {
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px 0 10px 24px;
+  width: 318px;
+}
+
+button {
+  padding: 10px 12px;
+  font-size: 20px;
+  border-radius: 45%;
+  margin-left: 12px;
+}
+
+.location,
+.tem {
+  font-size: 28px;
+}
+
+svg {
+  padding: 3px;
+  color: #808080;
+}
+
+.cloud > p {
+  font-size: 18px;
+}
+
+.location > p {
+  padding-left: 8px;
+}
+
+button:hover {
+  background-color: rgb(95 85 85 / 50%);
+}
+
+.wind > p {
+  padding-right: 6px;
+}
